@@ -1,0 +1,98 @@
+
+header{
+    background-color: pink;
+}
+img.logo{
+    height: 100px;
+    width: 100px;
+    padding-top: 20px;
+}
+h1.name{
+    color: rgb(255, 0, 170);
+    display: inline;
+    font-style: oblique;
+}
+ul.nav{
+    background-color: rgb(255, 0, 170);
+    margin-top: 0;
+    padding: 20px;
+    
+}
+li {
+    display: inline;
+    margin-right: 12%;
+}
+li a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+li:hover{
+    background-color: rgb(120, 6, 44);
+}
+body{
+    background-color: lightblue;
+}
+
+h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 2px;
+}
+#login {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  #login h2 {
+    margin-top: 0;
+  }
+  
+  #login label {
+    display: inline-block;
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  #login input[type="text"],
+  #login input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #login input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #login input[type="submit"]:hover {
+    background-color: #0062cc;
+  }
+footer{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10px;
+    padding: 3px;
+    background-color: rgb(255, 0, 170);
+    color: white;
+    margin-bottom: 0%;
+    margin-top: auto;
+}
